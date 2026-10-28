@@ -22,7 +22,7 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 | Project | What it is |
 |---|---|
 | [**Python AI Dojo**](https://github.com/devkauania/python-ai-dojo) · [play](https://python-ai-dojo.vercel.app) | Browser game that teaches the daily Python of AI engineering: token and cost math, tool calling, structured output, chunking, embeddings, RAG. 273 exercises run real Python via Pyodide; every reference solution passes and every starter fails, checked in CPython *and* in the browser. |
-| [**blink-sanitizer**](https://github.com/devkauania/blink-sanitizer) | Zero-dependency prompt-injection filter extracted from my AI gateway. I found a leetspeak + separator bypass in it, reproduced it, fixed it with regression tests, and replaced latency adjectives with a benchmark (p50 ≈ 0.32 ms on my machine). Limitations are documented. |
+| [**blink-sanitizer**](https://github.com/devkauania/blink-sanitizer) | Zero-dependency prompt-injection filter extracted from my AI gateway. I found a leetspeak + separator bypass in it, reproduced it, fixed it with regression tests, and replaced latency adjectives with a benchmark (p50 ≈ 0.36 ms on my machine). Limitations are documented. |
 | [**projeto-zero**](https://github.com/devkauania/projeto-zero) | `@projeto-zero/cli` on npm: scaffolds Claude Code agent workspaces and runs parallel agents, each in its own git worktree, with an environment allow-list. CI on Linux and Windows. |
 
 ### Private work (happy to walk through it in an interview)
@@ -38,10 +38,9 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 
 ### Stack
 
-**Daily:** Python, TypeScript, FastAPI, PostgreSQL/Supabase, Redis, Docker, GitHub Actions,
-Anthropic/OpenAI/Gemini APIs
-**Used in projects:** Celery, NeMo Guardrails, MCP, Expo/React Native, Hono
-**Experimented with:** LangGraph + DSPy, garak
+- **Daily:** Python, TypeScript, FastAPI, PostgreSQL/Supabase, Redis, Docker, GitHub Actions, Anthropic/OpenAI/Gemini APIs
+- **Used in projects:** Celery, NeMo Guardrails, MCP, Expo/React Native, Hono
+- **Experimented with:** LangGraph + DSPy, garak
 
 ### Before engineering
 
