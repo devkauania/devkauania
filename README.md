@@ -13,9 +13,9 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 
 | Project | What it is |
 |---|---|
-| [**Python AI Dojo**](https://github.com/devkauania/python-ai-dojo) · [play it](https://python-ai-dojo.vercel.app) | Browser game that teaches the everyday Python of AI engineering: token and cost math, tool calling, structured output, chunking, embeddings, RAG. 273 Python exercises run real Python in the browser via Pyodide, plus 30 HTML/CSS/JS exercises. Every reference solution must pass its tests and every starter must fail, checked automatically. The game text is in Portuguese. |
-| [**blink-sanitizer**](https://github.com/devkauania/blink-sanitizer) | Zero-dependency, regex-based prompt-injection filter extracted from my AI gateway: 262 patterns across 11 languages, with Unicode, leetspeak and separator normalization. It is a first layer, not a complete defense; the README has a reproducible latency benchmark, the known false positives and the evasions that are still open. |
-| [**projeto-zero**](https://github.com/devkauania/projeto-zero) | `@projeto-zero/cli` on npm: scaffolds Claude Code agent workspaces and runs parallel coding agents, each in its own git worktree, with an environment allow-list and an explicit opt-in for permission bypass. CI on Linux and Windows. |
+| [**Python AI Dojo**](https://github.com/devkauania/python-ai-dojo) · [play it](https://python-ai-dojo.vercel.app) | Browser game that teaches the everyday Python of AI engineering: token and cost math, tool calling, structured output, chunking, embeddings, RAG. 273 Python exercises run real Python in the browser via Pyodide, plus 30 HTML/CSS/JS exercises. Every reference solution must pass its tests and every starter must fail, checked automatically. Playable in English and Brazilian Portuguese, with a language switch in the game. |
+| [**blink-sanitizer**](https://github.com/devkauania/blink-sanitizer) | Zero-dependency, regex-based prompt-injection filter extracted from my AI gateway: 266 patterns across 11 languages, with Unicode, leetspeak and separator normalization. It is a first layer, not a complete defense; the README has a reproducible latency benchmark, the known false positives and the evasions that are still open. |
+| [**projeto-zero**](https://github.com/devkauania/projeto-zero) | `@projeto-zero/cli` on npm: scaffolds Claude Code agent workspaces and launches parallel coding agents, each in its own git worktree, with an environment allow-list and an explicit opt-in for permission bypass. Live runs do not work in 1.1.3, the version on npm: it passes a `--temperature` flag that current Claude Code rejects. The fix is on `main`, not released yet. CI on Linux and Windows. |
 
 ### Private work (happy to walk through it in an interview)
 
@@ -31,8 +31,8 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 
 ### How I work
 
-- **Coding agents as a pair, and I say so.** Most of my commits are co-authored with Claude
-  Code. I own the architecture, the review and the verification, and I write the checks
+- **Coding agents as a pair, and I say so.** I write most of my code with Claude Code as a
+  pair. I own the architecture, the review and the verification, and I write the checks
   that catch the agent: CI gates, doc/code drift tests, measured numbers instead of adjectives.
 - **Go deep, then argue with myself.** I study a problem until I understand who it affects,
   ask AI to argue against my reasoning, and build only on what survives.
