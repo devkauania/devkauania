@@ -33,9 +33,9 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 
 ### How I work
 
-- **Coding agents as a pair, and I say so.** I write most of my code with Claude Code as a
-  pair. I own the architecture, the review and the verification, and I write the checks
-  that catch the agent: CI gates, doc/code drift tests, measured numbers instead of adjectives.
+- **I direct AI coding agents, and I say so.** Claude Code writes the code. I own the
+  architecture, the plans, the review and the verification, and I decide the checks that
+  catch the agent: CI gates, doc/code drift tests, measured numbers instead of adjectives.
 - **Go deep, then argue with myself.** I study a problem until I understand who it affects,
   ask AI to argue against my reasoning, and build only on what survives.
 
