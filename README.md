@@ -49,4 +49,4 @@ Brazil (UTC-3) · remote · English, Portuguese, Spanish ·
 
 People-analytics automation at **Whirlpool** (a manual daily report became a scheduled
 Python/SQL job) and SDR for Europe at **Sizebay**, where I built the team's lead-research
-automation with Gemini and Apps Script. B.Sc. in Computer Science.
+automation with Gemini and Apps Script. Self-taught in AI engineering.
